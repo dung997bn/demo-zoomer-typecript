@@ -3,8 +3,10 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/video">Video</router-link>
+      <router-link to="/calendar">Calendar</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 

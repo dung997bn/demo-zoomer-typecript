@@ -4,8 +4,11 @@ import router from "./router";
 
 import VueZoomer from "vue-zoomer";
 
+
 Vue.config.productionTip = false;
-Vue.use(VueZoomer,{});
+Vue.use(VueZoomer, {});
+
+
 new Vue({
   router,
   render: (h) => h(App),
